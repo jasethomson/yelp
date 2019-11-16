@@ -1,0 +1,10 @@
+/* Home Page */
+.banner-image{
+  height: 60vh;
+  background-image: url('./images/beers.jpg');
+  background-size: cover;
+  background-position: 50%;
+}
+#yelpLogo{
+  width: 14vw;
+}

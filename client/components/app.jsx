@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from './header';
 
 class App extends React.Component {
   constructor(props){
@@ -10,7 +11,14 @@ class App extends React.Component {
   }
   render(){
     return(
-      <div>Yelp, here we come!</div>
+      <div>
+          <div className="banner-image" alt="Beers and Cheers">
+            <Header />
+          <div className="d-flex justify-content-center">
+            <img id="yelpLogo" src="../images/yelp-logo.png" alt="yelp logo" />
+          </div>
+          </div>
+      </div>
     )
   }
 }
